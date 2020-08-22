@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SaveCar</servlet-name>
+  	<display-name>SaveCar</display-name>
+  	<description></description>
+  	<servlet-class>com.maistruk.servlets.SaveCar</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowCar</servlet-name>
+  	<display-name>ShowCar</display-name>
+  	<description></description>
+  	<servlet-class>com.maistruk.servlets.ShowCar</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SearchCar</servlet-name>
+  	<display-name>SearchCar</display-name>
+  	<description></description>
+  	<servlet-class>com.maistruk.basecar.SearchCar</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Registration</servlet-name>
+  	<display-name>Registration</display-name>
+  	<description></description>
+  	<servlet-class>com.maistruk.servlets.Registration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SaveCar</servlet-name>
+  	<url-pattern>/SaveCar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowCar</servlet-name>
+  	<url-pattern>/ShowCar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SearchCar</servlet-name>
+  	<url-pattern>/SearchCar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Registration</servlet-name>
+  	<url-pattern>/Registration</url-pattern>
+  </servlet-mapping>
+</web-app>

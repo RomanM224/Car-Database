@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	background: #55D6AA;
+	margin: 0;
+}
+
+header::after {
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+.logo1 {
+	float: left;
+	height: 100px;
+	width: 220px;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 25px;
+	position: relative;
+}
+
+nav a {
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+nav a::before {
+	content: ' ';
+	display: block;
+	height: 5px;
+	width: 0%;
+	background-color: #444;
+	position: absolute;
+	top: 0;
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+	width: 100%
+}
+.loginForm{
+	float:right;
+}
+.inLogin{
+	margin-top:10px;
+	float:left;
+}
+.inPassword{
+	margin-left:10px;
+	margin-top:10px;
+	float:right;
+}
+
+.tabl {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.carForm {
+	border:solid px;
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 500px;
+	height: 250px;
+}
+.cForm{
+	border:solid px;
+	 width: 700px;
+    height: 400px;
+}
+.lbBlock{
+	border:solid px;
+	float:left;
+}
+.inBlock{
+	border:solid px;
+	float:left;
+}
+.inputLb {
+	
+	margin-left:10px;
+	display:block;
+	margin-top: 22px;
+}
+
+.inputIn {
+	display:block;
+	margin-left:auto;
+    margin-right:0;
+    margin-top: 20px;
+}
+#saveBt{
+	margin-top:20px;
+	margin-left:100px;
+	height:40px;
+	width: 120px;
+	background-color:#FFD700;
+	border-radius:3px;
+	adisplay:block;
+}
+#saveBt:hover{
+	margin-top:20px;
+    margin-left:100px;
+    height:40px;
+    width: 120px;
+    background-color:#FFF;
+    border-radius:3px;
+}
+.errorBlock{
+	border:solid px;
+	float:left;
+}
+.error{
+	color:RED;
+	margin-left:10px;
+	display:block;
+	   margin-top: 22px;
+}
+.showCarTabl{
+	margin-top:20px;
+	margin-left:20px;
+	
+	border-collapse: collapse;
+	width:50%;
+}
+.tabll, th, td{
+	padding:10px;
+	border: 1px solid black;
+}
+tr:hover{
+	background-color:#FFD700;
+}
+td{
+	width:50px;
+}
+.showButton{
+	margin-top:20px;
+    margin-left:100px;
+    height:40px;
+    width: 120px;
+    background-color:#FFD700;
+    border-radius:3px;
+    adisplay:block;
+}
+.showButton:hover{
+	   margin-top:20px;
+    margin-left:100px;
+    height:40px;
+    width: 120px;
+    background-color:#FFF;
+    border-radius:3px;
+}
+.searchCar{
+	margin-top:20px;
+	margin-left:30px;
+}
+.searchButton{
+	   margin-top:20px;
+    margin-left:20px;
+    height:40px;
+    width: 120px;
+    background-color:#FFD700;
+    border-radius:3px;
+    adisplay:block;
+}
+.searchButton:hover{
+    margin-top:20px;
+    margin-left:20px;
+    height:40px;
+    width: 120px;
+    background-color:#FFF;
+    border-radius:3px;
+}
+#carSearch{
+	width:200px;
+	heigh:20px;
+	background-color:#d9d9dd;
+}
+.regForm{
+	margin-top:20px;
+	margin-left:80px;
+}
+.regDiv{
+	margin-top:20px;
+}
+.regError{
+	color: red;
+}
+#regYear{
+	width:160px;
+}
+.navButtton{
+	margin-top:20px;
+    margin-left:20px;
+    height:40px;
+    width: 120px;
+    background-color:#6464e6;
+    border-radius:30px;
+    adisplay:block;
+}
